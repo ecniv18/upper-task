@@ -1,0 +1,32 @@
+.task-form {
+  --input-padding: 0.5em;
+  display: flex;
+  gap: 1rem;
+}
+
+.task-form input,
+.task-form select {
+  height: 1rem;
+  padding: var(--input-padding);
+}
+
+.task-form select {
+  height: 2rem;
+}
+
+.task-form-div-left,
+.task-form-div-right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.task-form-description {
+  height: 100%;
+  padding: var(--input-padding);
+  resize: none;
+}
+
+.task-form-submit {
+  height: 100%;
+}
