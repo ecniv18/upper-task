@@ -1,8 +1,9 @@
+import './style.css';
 import moment from 'moment';
-import createElement from '../helper/element-creator';
-import { appendElement } from '../helper/append-element';
+import createElement from '../../helper/element-creator';
+import { appendElement } from '../../helper/append-element';
 
-export default (function Form() {
+export default function Form() {
   const form = createElement('form', {
     classList: 'task-form',
   });
@@ -45,4 +46,4 @@ export default (function Form() {
   appendElement(priority, options);
 
   return form;
-})();
+}

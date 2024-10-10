@@ -1,0 +1,34 @@
+.task-form {
+  --input-padding: 0.5em;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  box-shadow: 0 0 5px #333;
+  padding: 1rem;
+  width: fit-content;
+  align-self: center;
+}
+
+.task-form input,
+.task-form select,
+.task-form button {
+  height: 3rem;
+  padding: var(--input-padding);
+}
+
+.task-form select {
+  font-size: 1rem;
+}
+
+.task-form-div-left,
+.task-form-div-right {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.task-form-description {
+  height: 100%;
+  padding: var(--input-padding);
+  resize: none;
+}
